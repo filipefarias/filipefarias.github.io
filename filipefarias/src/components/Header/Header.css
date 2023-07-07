@@ -1,0 +1,6 @@
+.site-header {
+    grid-area: head;
+    background-color: #6C757D;
+    margin: 0;
+    color: #fff;
+}

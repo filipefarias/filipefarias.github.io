@@ -1,0 +1,6 @@
+.site-footer {
+    grid-area: foot;
+    background-color: #CED4DA;
+    margin: 0;
+    color: #000;
+}
