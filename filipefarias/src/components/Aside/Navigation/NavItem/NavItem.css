@@ -1,0 +1,19 @@
+.navigation-item {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a, li {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #001845;
+}
+
+li:hover {
+    background-color: #001845;
+    color: #F8F9FA;
+}

@@ -1,0 +1,24 @@
+nav.menu {
+    background-color: #F8F9FA;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    width: 340px;
+    margin-top: 20px;
+    padding: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu > ul {
+    padding-inline-start: 0px;
+    width: 100%;
+}
+
+hr {
+    width: 80%;
+    color: #001845;
+}

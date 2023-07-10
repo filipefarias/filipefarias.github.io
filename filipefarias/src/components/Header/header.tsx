@@ -3,7 +3,7 @@ import './Header.css'
 
 function Header(): JSX.Element {
     return <header className="site-header">
-        Header
+        <h1>About Me</h1>
     </header>
 }
 
