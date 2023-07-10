@@ -1,6 +1,11 @@
 .site-footer {
     grid-area: foot;
-    background-color: #CED4DA;
+    background-color: #E9ECEF;
     margin: 0;
-    color: #000;
+    color: #001845;
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

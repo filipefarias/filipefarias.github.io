@@ -3,7 +3,7 @@ import './Footer.css'
 
 function Footer(): JSX.Element {
     return <footer className="site-footer">
-        Footer
+        © 2023 Filipe Farias
     </footer>
 }
 
