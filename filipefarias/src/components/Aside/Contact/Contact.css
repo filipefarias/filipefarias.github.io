@@ -1,0 +1,18 @@
+div.contact-info { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+
+
+div.contact-info i {
+    font-size: 1.6rem;
+    margin-right: 10px;
+}
+
+div.contact-info a {
+    text-decoration: none;
+    color: #001845;
+    font-size: 1rem;
+}

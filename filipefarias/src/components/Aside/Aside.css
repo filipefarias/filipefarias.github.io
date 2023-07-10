@@ -1,7 +1,10 @@
-.site-aside {
+aside.site-aside {
     grid-area: nav;
     background-color: #212529;
     margin: 0;
-    min-width: 300px;
-    color: #000;
+    min-width: 300px; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

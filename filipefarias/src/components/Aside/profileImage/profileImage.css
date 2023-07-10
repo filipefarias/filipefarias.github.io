@@ -1,0 +1,7 @@
+img.profile-photo {
+    max-width: 300px;
+    max-height: 450px;
+    box-sizing: border-box;
+    border: 5px inset #0353A4;
+    border-radius: 20px;
+}
