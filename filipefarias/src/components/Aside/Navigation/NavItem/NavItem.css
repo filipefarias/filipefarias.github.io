@@ -5,7 +5,8 @@
     align-items: center;
 }
 
-a, li {
+a.navigation-item, li.navigation-item {
+    width: 100%;
     list-style: none;
     text-decoration: none;
     text-align: center;
@@ -13,7 +14,7 @@ a, li {
     color: #001845;
 }
 
-li:hover {
+li.navigation-item:hover {
     background-color: #001845;
     color: #F8F9FA;
 }

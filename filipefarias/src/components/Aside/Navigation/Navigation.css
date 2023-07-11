@@ -16,9 +16,12 @@ nav.menu {
 .menu > ul {
     padding-inline-start: 0px;
     width: 100%;
+    margin: 0;
 }
 
 hr {
     width: 80%;
     color: #001845;
+    margin-top: 0;
+    margin-bottom: 0;
 }

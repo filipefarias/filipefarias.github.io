@@ -7,7 +7,7 @@ interface Props {
 }
 
 function NavItem(props : Props): JSX.Element {
-    return <a href={props.linkAddress}><li className="navigation-item">{props.name}</li></a>
+    return <a className="navigation-item" href={props.linkAddress}><li className="navigation-item">{props.name}</li></a>
 }
 
 export default NavItem
