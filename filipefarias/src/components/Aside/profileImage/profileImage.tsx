@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import './profileImage.css'
 
 function profileImage(): JSX.Element {

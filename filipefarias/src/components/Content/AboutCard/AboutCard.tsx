@@ -1,4 +1,4 @@
-import React from "react"
+// import React from "react"
 import './AboutCard.css'
 
 function infoCard(): JSX.Element {
