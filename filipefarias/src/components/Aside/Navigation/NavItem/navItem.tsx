@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"
+import { Link } from 'react-router-dom'
 import './NavItem.css'
 
 interface Props {
@@ -7,7 +8,7 @@ interface Props {
 }
 
 function NavItem(props : Props): JSX.Element {
-    return <a className="navigation-item" href={props.linkAddress}><li className="navigation-item">{props.name}</li></a>
+    return <Link to={props.linkAddress} className="navigation-item"><li className="navigation-item">{props.name}</li></Link>
 }
 
 export default NavItem

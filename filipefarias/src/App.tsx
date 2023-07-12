@@ -1,16 +1,17 @@
 import { useState } from 'react'
+import { BrowserRouter } from 'react-router-dom'
 import './App.css'
 import Aside from './components/Aside/aside'
 import Footer from './components/Footer/footer'
-import Main from './components/Pages/Main'
+import AppRouter from './Routes'
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Aside />
-      <Main />
+      <AppRouter />
       <Footer />
-    </>
+    </BrowserRouter>
   )
 }
 
