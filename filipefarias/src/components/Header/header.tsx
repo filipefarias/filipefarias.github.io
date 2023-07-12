@@ -1,9 +1,13 @@
 import React from "react";
 import './Header.css'
 
-function Header(): JSX.Element {
+interface Props {
+    title: string
+}
+
+function Header(props: Props): JSX.Element {
     return <header className="site-header">
-        <h1>About Me</h1>
+        <h1>{props.title}</h1>
     </header>
 }
 
