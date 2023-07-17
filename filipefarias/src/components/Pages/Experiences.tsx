@@ -1,9 +1,9 @@
-// import React from "react";
-import Content from "../Content/content";
+import Content from "../Content/content"
+import ExperienceChart from "../Content/ExperienceChart/ExperienceChart"
 
 function Experiences(): JSX.Element {
     return <Content title="Experiences">
-        Teste
+        <ExperienceChart />
     </Content>
 }
 
