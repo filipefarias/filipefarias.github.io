@@ -1,14 +1,15 @@
-// import React from "react";
 import './Aside.css'
 import ProfilePanel from "./profilePanel/profilePanel"
 import Menu from "./Navigation/navigation"
-import Social from "./Social/social";
+import SocialPanel from "./Social/SocialPanel/SocialPanel"
 
 function Aside(): JSX.Element {
     return <aside className="site-aside">
-        <ProfilePanel />
-        <Menu />
-        <Social />
+        <div className="top-aside">
+            <ProfilePanel />
+            <Menu />
+        </div>
+        <SocialPanel />
     </aside>
 }
 

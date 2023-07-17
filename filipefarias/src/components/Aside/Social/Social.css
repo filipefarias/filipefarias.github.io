@@ -1,12 +1,11 @@
 div.social-info {
     color: #F8F9FA;
     font-size: 45px;
-    position: absolute;
-    bottom: 50px;
     width: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 div.social-info a {

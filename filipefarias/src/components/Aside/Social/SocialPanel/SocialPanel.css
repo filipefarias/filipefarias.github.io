@@ -1,0 +1,8 @@
+div.social-panel {
+    display: flex;
+    width: 340px;
+
+    justify-content: center;
+    align-items: flex-end;
+
+}
