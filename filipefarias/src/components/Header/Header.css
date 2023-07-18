@@ -42,7 +42,7 @@ header.site-header h1 {
         visibility: collapse;
     }
 
-    header.site-header div.menu-nav > i {
+    header.site-header div.menu-nav > button {
         visibility: collapse;
     }
 }
