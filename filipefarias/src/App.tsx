@@ -4,7 +4,6 @@ import './App.css'
 import Aside from './components/Aside/aside'
 import Footer from './components/Footer/footer'
 import AppRouter from './Routes'
-import MenuMobile from './components/MenuMobile/MenuMobile'
 
 function App() {
   return (
