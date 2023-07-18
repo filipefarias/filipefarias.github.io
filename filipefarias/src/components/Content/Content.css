@@ -2,5 +2,9 @@
     grid-area: main;
     background-color: #F8F9FA;
     margin: 0;
-    color: #000;    
+    color: #000;   
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
 }

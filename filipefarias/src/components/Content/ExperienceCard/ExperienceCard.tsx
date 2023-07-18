@@ -17,7 +17,7 @@ function ExperienceCard(props: Props): JSX.Element {
             </div>
             <div className="job-time">
                 <h2 className="start-year"><i className="fa-solid fa-angles-up"></i> {props.starts}</h2>
-                <h2 className="end-year"><i className="fa-solid fa-angles-down"></i> {props.ends}</h2>
+                <h2 className="end-year"><i className="fa-solid fa-angles-down"></i> {props.ends ? props.ends : '----'}</h2>
             </div>
             <p className="job-description">{props.description}</p>
         </div>
