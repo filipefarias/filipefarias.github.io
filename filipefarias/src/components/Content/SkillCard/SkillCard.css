@@ -1,0 +1,19 @@
+div.skill-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ADB5BD;
+    width: 150px;
+    margin: 10px;
+}
+
+div.skill-card img.skill-img {
+    max-width: 100%;
+    background-color: #fff;
+}
+
+div.skill-card h3.skill-title {
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+}

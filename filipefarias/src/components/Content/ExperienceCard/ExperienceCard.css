@@ -10,6 +10,7 @@ div.experience-card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 140px 1fr;
+    color: #212529;
 }
 
 div.job-info {
@@ -26,6 +27,7 @@ div.job-info h2.job-title {
     font-size: 2rem;
     margin-block-start: 0;
     margin-block-end: 0;
+    color: #001845;
 }
 
 div.job-info h3.job-company {

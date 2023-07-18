@@ -1,0 +1,75 @@
+div.skills-chart {
+    background-color: #E9ECEF;
+    border: 1px solid #DEE2E6;
+    box-shadow: 0px 0px 15px #0003;
+    box-sizing: border-box;
+    width:90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.skills-chart h2.skills-title {
+    color: #001845;
+    font-family: "Roboto", sans-serif;
+    padding-left: 50px;
+}
+
+div.skills-chart > hr {
+    color: #212529;
+    width: 97%;
+}
+
+div.skills-chart div.skills-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    margin: 0px 30px 30px 30px;
+}
+
+div.skills-cards div.industrial-skills {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.industrial-skills h2.industrial-title {
+    color: #001845;
+    font-family: "Saira", sans-serif;
+}
+
+div.industrial-skills > hr {
+    color: #212529;
+    width: 97%;
+}
+
+div.skills-cards div.dev-skills {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.dev-skills h2.dev-title {
+    color: #001845;
+    font-family: "Saira", sans-serif;
+}
+
+div.dev-skills > hr {
+    color: #212529;
+    width: 97%;
+}
+
+div.industrial-skills div.industrial-cards,
+div.dev-skills div.dev-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+}

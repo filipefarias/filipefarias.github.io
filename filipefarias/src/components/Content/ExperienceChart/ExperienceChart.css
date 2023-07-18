@@ -1,9 +1,9 @@
 div.experience-chart {
     margin: 20px;
     display: grid;
-    grid-template-columns: 1fr 20xp 1fr;
+    grid-template-columns: 1fr auto 1fr;
     grid-template-rows: auto;
-    /* row-gap: 40px; */
+    color: #212529;
 }
 
 div.experience-chart > div.exp-1 {
@@ -99,9 +99,9 @@ div.experience-chart > div.time-line {
 }
 
 div.time-line > div.line {
-    background-color: #000;
+    background-color: #212529;
     border-radius: 50px;
     height: 100%;
-    width: 20px;
+    width: 16px;
     margin: 10px 0;
 }

@@ -1,9 +1,11 @@
-// import React from "react";
-import Content from "../Content/content";
+import Content from "../Content/content"
+import EducationChart from "../Content/EducationChart/EducationChart"
+import SkillsChart from "../Content/SkillsChart/SkillsChart"
 
 function Education(): JSX.Element {
     return <Content title="Education">
-        Teste
+        <EducationChart />
+        <SkillsChart />
     </Content>
 }
 

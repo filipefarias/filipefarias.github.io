@@ -1,0 +1,49 @@
+div.education-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #212529;
+    border: 1px solid #ADB5BD;
+    width: 350px;
+    margin: 10px;
+}
+
+div.education-card a.course-link {
+    text-decoration: none;
+    font-family: 'Saira', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #001845;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.education-card h2.course-title {
+    margin-block-end: 0;
+}
+
+div.education-card img.course-img {
+    width: 100%;
+}
+
+div.education-card h3.course-university {
+    text-align: center;
+}
+
+div.education-card div.course-completion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #001845;
+    font-size: 1.2rem;
+    font-family: 'Saira', sans-serif;
+}
+
+div.education-card div.course-completion i {
+    margin-right: 20px;
+}

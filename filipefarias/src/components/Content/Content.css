@@ -5,6 +5,7 @@
     color: #000;   
     overflow: auto;
     display: flex;
-    justify-content: center;
-    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
