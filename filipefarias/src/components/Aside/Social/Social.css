@@ -11,3 +11,10 @@ div.social-info a {
     text-decoration: none;
     color: #F8F9FA;
 }
+
+@media (max-width: 600px) {
+    div.social-info {
+        font-size: 25px;
+        width: 100px;
+    }
+}
