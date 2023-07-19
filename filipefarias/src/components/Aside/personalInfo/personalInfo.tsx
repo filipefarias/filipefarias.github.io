@@ -1,4 +1,3 @@
-// import React from "react";
 import './personalInfo.css'
 import Contact from "../Contact/contact";
 
