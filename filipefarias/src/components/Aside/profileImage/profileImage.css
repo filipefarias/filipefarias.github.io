@@ -5,3 +5,10 @@ img.profile-photo {
     border: 5px inset #0353A4;
     border-radius: 20px;
 }
+
+@media (max-height: 936px) {
+    img.profile-photo {
+        max-width: 200px;
+        max-height: 350px;
+    }
+}

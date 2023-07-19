@@ -19,3 +19,9 @@ div.top-aside {
     align-items: center;
     justify-content:top;
 }
+
+@media (max-height: 936px) {
+    aside.site-aside {
+        overflow-y: auto;
+    }
+}

@@ -60,5 +60,6 @@ header.site-header h1 {
 
     header.site-header div.menu-nav > button{
         font-size: 25px;
+        margin-right: 15px;
     }
 }

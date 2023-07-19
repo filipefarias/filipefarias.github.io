@@ -18,7 +18,7 @@ function ExperienceChart(): JSX.Element {
             <ExperienceCard title="Maintenance Technician" company="General Motors" starts={2019} ends={2021} description="PFOKAkpoekfapdofkaspodfkaspodkfapsodkf dpfkaspdfkaspfk padkfpaso kfp askfp oaskfp oaskdfp aoskdfpaks dpfokasdpf kasdpofka spdofkaspdofk apsdofkaps dofk aspodfkaps dkfpadsokf padsokf pasokfp asodkfpa dsokf pasodkfp asokdfpaso kfpaskdf pasdk pfadkfp asdkfpsa " />
         </div>
         <div className="exp-4">
-            <ExperienceCard title="Automation Specialist" company="FF Automation" starts={2021} ends={0} description="PFOKAkpoekfapdofkaspodfkaspodkfapsodkf dpfkaspdfkaspfk padkfpaso kfp askfp oaskfp oaskdfp aoskdfpaks dpfokasdpf kasdpofka spdofkaspdofk apsdofkaps dofk aspodfkaps dkfpadsokf padsokf pasokfp asodkfpa dsokf pasodkfp asokdfpaso kfpaskdf pasdk pfadkfp asdkfpsa " />
+            <ExperienceCard title="Automation Specialist" company="FF Automation" starts={2021} ends={0} description="PFOKAkpoekfapdofkaspod fkaspodkfapsodkf dpfkaspdfkaspfk padkfpaso kfp askfp oaskfp oaskdfp aoskdfpaks dpfokasdpf kasdpofka spdofkaspdofk apsdofkaps dofk aspodfkaps dkfpadsokf padsokf pasokfp asodkfpa dsokf pasodkfp asokdfpaso kfpaskdf pasdk pfadkfp asdkfpsa " />
         </div>
        
     </div>

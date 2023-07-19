@@ -12,3 +12,12 @@ div.profile-panel {
     justify-content: space-around;
     
 }
+
+@media (max-height: 936px) {
+    div.profile-panel {
+        max-height: 420px;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+}

@@ -172,3 +172,14 @@ div.time-line > div.line {
         margin-top: 50px;
     }
 }
+
+@media (max-width: 600px) {
+    div.experience-chart > div.time-line {
+        font-size: 1.2rem;
+    }
+
+    div.time-line > div.line {
+        width: 10px;
+    }
+
+}

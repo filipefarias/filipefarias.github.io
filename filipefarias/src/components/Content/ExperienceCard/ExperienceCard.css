@@ -66,3 +66,67 @@ p.job-description {
     text-align: justify;
     padding: 10px;
 }
+
+@media (max-width: 2000px) {
+    div.job-time {
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    div.job-time h2.start-year,
+    div.job-time h2.end-year {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    div.experience-card {
+        width: 96%;
+        padding: 10px;
+    }
+
+    div.job-info {
+        padding: 5px 0px 5px 5px;
+    }
+
+    div.job-info h2.job-title {
+        font-size: 1.4rem;
+    }
+
+    div.job-info h3.job-company {
+        font-size: 1.2rem;
+    }
+
+    div.job-time h2.start-year,
+    div.job-time h2.end-year {
+        font-size: 1.4rem;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-bottom: 15px;
+    }
+
+    p.job-description {
+        padding: 5px;
+    }
+
+    div.job-time i.fa-angles-up,
+    div.job-time i.fa-angles-down {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 365px) {
+    div.job-time h2.start-year,
+    div.job-time h2.end-year {
+        font-size: 1.2rem;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-bottom: 10px;
+    }
+    
+}

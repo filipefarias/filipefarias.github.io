@@ -13,6 +13,10 @@ div.project-card {
     align-items: center;
 }
 
+div.project-card img {
+    width: 100%;
+}
+
 div.project-card h2.project-title {
     margin-block-start: 0;
     margin-block-end: 0;
@@ -41,4 +45,24 @@ div.project-card p.project-description {
     font-size: 1.1rem;
     margin: 0;
     line-height: 1.4rem;
+}
+
+@media (max-height: 760px) {
+    div.project-card {
+        width: 250px;
+        margin: 5px;
+    }
+
+    div.project-card a.project-link {
+        font-size: 1rem;
+    }
+
+    div.project-card p.project-description {
+        padding: 5px;
+    }
+
+    div.project-card a.git-link {
+        font-size: 1.8rem;
+        margin-bottom: 5px;
+    }
 }

@@ -17,3 +17,9 @@ div.skill-card h3.skill-title {
     color: #212529;
     font-family: 'Roboto', sans-serif;
 }
+
+@media (max-width: 600px) {
+    div.skill-card {
+        width: 120px;
+    }
+}
